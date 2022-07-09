@@ -3,7 +3,7 @@
 Decided to put this out here. Make sure to get as many people as possible to fork the repository as the verus devs will strike these. 
 Please note there are a lot of checks and stuff missing, if anyone has any stuff to add please add it. Also some things in here may be outdated...
 fv#4060 if anyone wants to contact me.
-Also can't remove the "Verus-Copy" file because github sucks lol
+Also can't remove the "Verus-Copy" file because github won't let me lol
 
 # Why Verus is a scam
 Info from dort's verus leak on github.
