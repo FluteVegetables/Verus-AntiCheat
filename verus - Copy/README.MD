@@ -5,6 +5,12 @@ Please note there are a lot of checks and stuff missing, if anyone has any stuff
 fv#4060 if anyone wants to contact me.
 Also can't remove the "Verus-Copy" file because github won't let me lol
 
+# Checks in this repository
+Most normal [$60] checks: src/main/java/me/levansj01/verus/check/checks
+Some premium [$125] checks: src/main/java/me/levansj01/verus/type/premium/checks
+Some enterprise [$200] checks: src/main/java/me/levansj01/verus/type/custom/checks
+(the directory for the last two isn't as obvious as the first)
+
 # Why Verus is a scam
 Info from dort's verus leak on github.
 
@@ -44,28 +50,28 @@ Info from dort's verus leak on github.
 - (Premium checks)
 
 # Verus Checks
-- All verus checks I have found through testing. All of these checks are from Normal, Premium, Custom, and the recode
+- All verus checks I have found through testing. All of these checks are from Normal, Premium, Custom, and the Recode
 ## AimAssist [1]
 - A1 - Delta yaw
 - C - Yaw consistency relative to pitch changes
 - G - Rounded yaw
-- H - Some weird value patch or something
+- H - Some weird check (where tf did they even get those numbers LOL?)
 ## AutoClicker [2]
-- A - Randomization (STD)
-- B - Break blocks
+- A - Randomization
+- B - Break blocks (cps breaks while attacking blocks)
 - C - Reverse of B (checks for click consistentsy from attacking to breaking blocks)
 - D - Randomization
 - E - Weird breaking blocks check
 - K - Randomization 
-- X - CPS limit
-- X2 - CPS limit 
+- X - Click speed
+- X2 - Click speed
 ## BadPackets [3]
 - A - Packet limit
 - B - Pitch limit
 - B1 - Vehicle move limit
 - C - NoSwing (attacking)
-- D - Block order
-- E - Entity action check
+- D - Block order (release use item)
+- E - Entity action check (sprint & sneak)
 - F - Item use/release delay
 - G1 - KeepAlive ping
 - G3 - Transaction ping
@@ -76,9 +82,10 @@ Info from dort's verus leak on github.
 - H - Rotation packet check
 - I - Item spoof
 - M - No slow; checks if sprinting while using an item
-- O - Invalid block face
-- P - Entity interact order
-- R - Block interaction while sending player packets
+- N - Some sort of transaction check*
+- O - Block face
+- P - AutoBlock; entity interact
+- R - Block interaction while sending flyings
 - U - Item spoof
 - V - Entity interact ID
 - W - Placement packet limit
@@ -86,9 +93,9 @@ Info from dort's verus leak on github.
 - Y - Blink 
 - Z - NoSwing (breaking blocks)
 ## Fly [4]
-- A - Collision fly
-- A2- Jump collision fly
-- A3 - Collision fly but some kind of location check idk
+- A - Ground spoof
+- A2- Ground spoof (jump collide fly patch)
+- A3 - Ground spoof (some weird location check idk)
 - B - Ground height
 - C - Air y axis
 - D - Air modification
@@ -96,15 +103,15 @@ Info from dort's verus leak on github.
 - F - Upward motion
 - G - High jump
 - I - Air motion
-- I2 - Air motion (shocker !)
+- I2 - Air motion 
 - K - Ground spoof
 - K2 - 
 - L - Ground height
 - L2 - 
-- O - Strafe (realllly bad)
+- O - Strafe (invalid yaw changes)
 ## Inventory [5]
 - C - Inventory move
-- F - Opening and closing inventory too fast 
+- F - Opening and closing inventory too fast or something
 - G - Interacting in intentory without being in inventory
 - J - Sending swings while in inventory
 ## KillAura [6] 
@@ -112,26 +119,26 @@ Info from dort's verus leak on github.
 - B - Clicker randomization
 - C - AimBot
 - D - AimBot
-- E - AutoBlock; item use order
-- F - AutoBlock; block dig order
-- G - HitBox/rotations
+- E - AutoBlock; item use
+- F - AutoBlock; block dig
+- G - HitBoxes/rotations
 - H - Post attacks
-- H2 - Attacking while not sending player packets
+- H2 - Attacking while not sending flyings
 - H3 - 
-- K - AutoBlock; dropping items while attacking
-- M - AutoBlock; placing blocks while attacking
+- K - AutoBlock; dropping items
+- M - AutoBlock; placing blocks
 - N - 
 - O - MultiAura
 - O2 - SwitchAura; switching between multiple players in 1 tick
 - Q - AimBot
-- Z - Rotation check not reliant on transactions
+- Z - HitBoxes/rotations
 ## PayLoad [7]
 - A & B - Attempts to detect cracked clients on join
 ## Phase [8]
 - Pretty sure these don't exist
 ## Reach [9]
 - A - Attack range
-- B - Entity interact range
+- B - Entity interact hitbox
 - C - Attack range
 - X - Attack range
 ## Speed [10]
@@ -149,32 +156,34 @@ Info from dort's verus leak on github.
 - A - Vertical velocity
 - B - Horizontal velocity
 - C - AntiKB; checks to see if you move up after being hit
-- D - Velocity motion 
+- D - Velocity motion (damage fly patch)
 ## Misc [13]
 - C - Some weird phase check
 - F - Breaking blocks (no seriously lol)
 - H - FastBreak
 ## Scaffold [14]
-- A - 
+- A - Null place check or something
 - B - Post packets
 - D - Duped item held packets
-- E - Place xyz check 
+- E - Place xyz check
 - G - Placing blocks through blocks
 ## Crasher [15]
 
 # Servers Using Verus
 if you want to have some fun
+## Offline
 - ghostly.live - cracked verus & cracked agc
 - hazelmc.com - 2020 verus
-- lunar.gg - cracked verus & cracked agc
+- coldpvp.com - weird latest verus cfg
+- bwhub.net - cracked verus
+- onlymc.us - old verus
+- ecuacraft.gg - cracked verus
 - dynamicpvp.com - old verus
 - onipvp.com - old verus
 - holypvp.com - old verus
 - astralmc.com - old verus
 - universocraft.net - latest verus on a horrible cfg
+## Premium
 - sagepvp.org - latest verus
-- coldpvp.com - weird latest verus cfg
 - vipermc.com - latest verus (i think)
-- bwhub.net - cracked verus
-- onlymc.us - old verus
-- ecuacraft.gg - cracked verus
+- lunar.gg - cracked verus & cracked agc
