@@ -168,8 +168,9 @@ Info from dort's verus leak on github.
 - E - Place xyz check
 - G - Placing blocks through blocks
 ## Crasher [15]
+- Never seen these but they're all in the repository
 
-###
+### *
 *) On recoded verus, badpacketsN seemed to be a check that checked for recieved transactions. However, on a tenebrous video where he shows off hypixel bypasses on verus, it labels it as "NoSlowdown 3N". So I'm really unsure to what it could be.
 
 # Servers Using Verus
