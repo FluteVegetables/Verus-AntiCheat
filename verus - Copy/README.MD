@@ -171,7 +171,7 @@ Info from dort's verus leak on github.
 - Never seen these but they're all in the repository
 
 ### *
-*) On recoded verus, badpacketsN seemed to be a check that checked for recieved transactions. However, on a tenebrous video where he shows off hypixel bypasses on verus, it labels it as "NoSlowdown 3N". So I'm really unsure to what it could be.
+*) On recoded verus, badpacketsN seemed to be a check that checked for recieved transactions. However, on a tenebrous video ( https://youtu.be/A3W5Qgh8VUU 3:30 ) where he shows off hypixel bypasses on verus, it labels it as "NoSlowdown 3N". So I'm really unsure to what it could be.
 
 # Servers Using Verus
 if you want to have some fun
