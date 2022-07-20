@@ -2,14 +2,14 @@
 
 Decided to put this out here. Make sure to get as many people as possible to fork the repository as the verus devs will strike these. 
 Please note there are a lot of checks and stuff missing, if anyone has any stuff to add please add it. Also some things in here may be outdated...
-fv#4060 if anyone wants to contact me.
 Also can't remove the "Verus-Copy" file because github won't let me lol
+- fv#4060 if you want to contact me
 
 # Checks in this repository
-Most normal [$60] checks: src/main/java/me/levansj01/verus/check/checks
-Some premium [$125] checks: src/main/java/me/levansj01/verus/type/premium/checks
-Some enterprise [$200] checks: src/main/java/me/levansj01/verus/type/custom/checks
-(the directory for the last two isn't as obvious as the first)
+- Most normal [$60] checks: src/main/java/me/levansj01/verus/check/checks
+- Some premium [$125] checks: src/main/java/me/levansj01/verus/type/premium/checks
+- Some enterprise [$200] checks: src/main/java/me/levansj01/verus/type/custom/checks
+- (the directory for the last two isn't as obvious as the first)
 
 # Why Verus is a scam
 Info from dort's verus leak on github.
