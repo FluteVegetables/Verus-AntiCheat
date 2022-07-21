@@ -84,8 +84,10 @@ Info from dort's verus leak on github.
 - M - No slow; checks if sprinting while using an item
 - N - Some sort of transaction check*
 - O - Block face
+- O2 - Block face
 - P - AutoBlock; entity interact
 - R - Block interaction while sending flyings
+- S2 - swinging while not sending flyings
 - U - Item spoof
 - V - Entity interact ID
 - W - Placement packet limit
@@ -103,7 +105,7 @@ Info from dort's verus leak on github.
 - F - Upward motion
 - G - High jump
 - I - Air motion
-- I2 - Air motion 
+- I2 - Air motion (completely different than 4I)
 - K - Ground spoof
 - K2 - 
 - L - Ground height
@@ -116,15 +118,15 @@ Info from dort's verus leak on github.
 - J - Sending swings while in inventory
 ## KillAura [6] 
 - A - AimBot
-- B - Clicker randomization
+- B - AutoClicker
 - C - AimBot
 - D - AimBot
 - E - AutoBlock; item use
 - F - AutoBlock; block dig
 - G - HitBoxes/rotations
 - H - Post attacks
-- H2 - Attacking while not sending flyings
-- H3 - 
+- H2 - Attack time
+- H3 - Attacking while not sending flyings
 - K - AutoBlock; dropping items
 - M - AutoBlock; placing blocks
 - N - 
@@ -142,9 +144,9 @@ Info from dort's verus leak on github.
 - C - Attack range
 - X - Attack range
 ## Speed [10]
-- A - Movement speed limit
-- B - Climb speed limit
-- E - Sprinting in illegal directions
+- A - Movement speed
+- B - Climb speed
+- E - Sprint direction
 - X - Strafe
 ## Timer [11]
 - A -
@@ -164,7 +166,7 @@ Info from dort's verus leak on github.
 ## Scaffold [14]
 - A - Null place check or something
 - B - Post packets
-- D - Duped item held packets
+- D - Duped slots
 - E - Place xyz check
 - G - Placing blocks through blocks
 ## Crasher [15]
