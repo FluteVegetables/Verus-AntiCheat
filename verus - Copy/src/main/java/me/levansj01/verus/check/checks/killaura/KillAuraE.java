@@ -19,5 +19,28 @@ import me.levansj01.verus.type.Loader;
   unsupportedAtleast=ClientVersion.VERSION1_9
 )
 public class KillAuraE extends PacketCheck {
+  public static final boolean bool = true
 
+  public KillAuraE() {
+    if (Loader.getUsername().equals("UniversoCraft")) {
+      this.setMaxViolation(/*value*/)
+    }
+  }
+  
+  @Override
+  public void handle(VPacket vPacket, long l) {
+    if (vPacket instanceof VPacketPlayInFlying) {
+      this.place = false;
+      if (!bool) {
+        throw null;
+      }
+    } else if (vPacket instanceof VPacketPlayInBlockPlace) {
+      this.place = true;
+      if (!bool) {
+        throw null;
+      }
+    } else if (vPacket instanceof VPacketPlayInUseEntity && this.place && ((((VPacketPlayInUseEntity)vPacket).getAction() == VPacketPlayInUseEntity.EntityUseAction.ATTACK) {
+      this.handleViolation("", 1.0, (/*value*/, /*value*/) != 0);
+    }
+  }
 }
